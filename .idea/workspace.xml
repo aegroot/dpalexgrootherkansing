@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="adding db" />
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="adding db">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -265,7 +267,7 @@
       <workItem from="1585854221126" duration="19000" />
       <workItem from="1586083808245" duration="2954000" />
       <workItem from="1586102749797" duration="883000" />
-      <workItem from="1586104018794" duration="1740000" />
+      <workItem from="1586104018794" duration="2020000" />
     </task>
     <task id="LOCAL-00001" summary="adding db">
       <created>1586105272631</created>
@@ -288,7 +290,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586105524717</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="adding db">
+      <created>1586105771539</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1586105771539</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -313,10 +322,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="686" y="139" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1585838184916" />
-    <state x="517" y="24" key="CommitChangelistDialog2" timestamp="1586105523620">
+    <state x="517" y="24" key="CommitChangelistDialog2" timestamp="1586105770450">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="517" y="24" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1586105523620" />
+    <state x="517" y="24" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1586105770450" />
     <state width="1175" height="211" key="GridCell.Tab.0.bottom" timestamp="1586105394678">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -337,17 +346,17 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="464" y="99" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1585854237032" />
-    <state x="476" y="146" key="Vcs.Push.Dialog.v2" timestamp="1586105537439">
+    <state x="476" y="146" key="Vcs.Push.Dialog.v2" timestamp="1586105830176">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="476" y="146" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586105537439" />
+    <state x="476" y="146" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586105830176" />
     <state x="750" y="263" key="com.intellij.ide.util.TipDialog" timestamp="1586104020119">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="750" y="263" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586104020119" />
-    <state x="695" y="341" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586105759741">
+    <state x="695" y="341" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586106039684">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="695" y="341" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586105759741" />
+    <state x="695" y="341" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586106039684" />
   </component>
 </project>
