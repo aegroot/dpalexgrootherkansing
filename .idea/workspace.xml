@@ -296,6 +296,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="adding db" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="471" y="83" key="#Deployment" timestamp="1586105504983">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="471" y="83" key="#Deployment/0.0.1920.1040@0.0.1920.1040" timestamp="1586105504983" />
     <state x="93" y="91" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586103290614">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -304,10 +308,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="686" y="139" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1585838184916" />
-    <state x="472" y="20" key="CommitChangelistDialog2" timestamp="1586105409551">
+    <state x="517" y="24" key="CommitChangelistDialog2" timestamp="1586105523620">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="472" y="20" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1586105409551" />
+    <state x="517" y="24" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1586105523620" />
     <state width="1175" height="211" key="GridCell.Tab.0.bottom" timestamp="1586105394678">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -328,10 +332,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="464" y="99" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1585854237032" />
-    <state x="476" y="146" key="Vcs.Push.Dialog.v2" timestamp="1586105390493">
+    <state x="476" y="146" key="Vcs.Push.Dialog.v2" timestamp="1586105537439">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="476" y="146" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586105390493" />
+    <state x="476" y="146" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586105537439" />
     <state x="750" y="263" key="com.intellij.ide.util.TipDialog" timestamp="1586104020119">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
