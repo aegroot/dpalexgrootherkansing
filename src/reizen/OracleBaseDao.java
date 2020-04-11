@@ -9,15 +9,16 @@ public class OracleBaseDao {
     static String dbusername="herkansing";
     static String dbpassword="herkansing";
 
-    public static void getConnection(){
-    {
-        try {
+    public static Connection getConnection() throws SQLException {
+
+
             Connection connection = DriverManager.getConnection(jdbcUrl,dbusername,dbpassword);
-            connection.close();
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
-    }}
+            //connection.close();
+            return connection;
 
 
+
+
+}
+    public void closeConnection() throws SQLException {getConnection().close();}
 }

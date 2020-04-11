@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="adding db">
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/reizen/OracleBaseDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/reizen/OracleBaseDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reizen/Reiziger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/reizen/Reiziger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/reizen/ReizigerDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/reizen/ReizigerDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/reizen/ReizigerDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/reizen/ReizigerDaoImpl.java" afterDir="false" />
     </list>
@@ -14,36 +16,6 @@
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
-  </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="HERKANSING: schema" type="3abd1b6a:OraImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="HERKANSING: schema" type="3abd1b6a:OraImplModel$Schema" />
-        <item name="REIZIGER: table" type="942f455b:OraImplModel$Table" />
-      </path>
-    </expand>
-    <select />
   </component>
   <component name="DebuggerManager">
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true" converted="true">
@@ -111,7 +83,6 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -239,28 +210,6 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="@localhost: root" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="@localhost: root" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@a5a41df" type="9fbbdea:ServiceModel$ServiceNode" />
-              </path>
-            </expand>
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -280,6 +229,10 @@
       <workItem from="1586159217529" duration="12000" />
       <workItem from="1586164255365" duration="2964000" />
       <workItem from="1586172885455" duration="7000" />
+      <workItem from="1586510123495" duration="1529000" />
+      <workItem from="1586511883773" duration="1947000" />
+      <workItem from="1586515470108" duration="3042000" />
+      <workItem from="1586615882863" duration="596000" />
     </task>
     <task id="LOCAL-00001" summary="adding db">
       <created>1586105272631</created>
@@ -358,11 +311,18 @@
       <option name="project" value="LOCAL" />
       <updated>1586164281761</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="adding db">
+      <created>1586510212903</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1586510212903</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
@@ -375,18 +335,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="471" y="83" key="#Deployment/0.0.1920.1040@0.0.1920.1040" timestamp="1586105504983" />
+    <state x="349" y="361" key="#SQL_Dialects" timestamp="1586512483924">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="349" y="361" key="#SQL_Dialects/0.0.1920.1040@0.0.1920.1040" timestamp="1586512483924" />
     <state x="93" y="91" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586103290614">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="93" y="91" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586103290614" />
-    <state x="686" y="139" key="#com.intellij.ide.util.MemberChooser" timestamp="1586165042936">
+    <state x="686" y="139" key="#com.intellij.ide.util.MemberChooser" timestamp="1586512961692">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="686" y="139" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1586165042936" />
-    <state x="517" y="24" key="CommitChangelistDialog2" timestamp="1586164280085">
+    <state x="686" y="139" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1586512961692" />
+    <state x="517" y="24" key="CommitChangelistDialog2" timestamp="1586510210662">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="517" y="24" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1586164280085" />
+    <state x="517" y="24" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1586510210662" />
     <state x="131" y="100" width="1569" height="634" key="DiffContextDialog" timestamp="1586107305161">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -419,10 +383,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="344" key="VCS.ChangelistChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1586106449515" />
-    <state x="476" y="146" key="Vcs.Push.Dialog.v2" timestamp="1586164284797">
+    <state x="476" y="146" key="Vcs.Push.Dialog.v2" timestamp="1586510216094">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="476" y="146" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586164284797" />
+    <state x="476" y="146" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586510216094" />
     <state x="750" y="263" key="com.intellij.ide.util.TipDialog" timestamp="1586172886488">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -6,11 +6,15 @@ public class Reiziger {
     String naam;
     Date gbdatum;
 
+
+    public Reiziger() {
+    }
+
     public void setNaam(String naam) {
         this.naam = naam;
     }
 
-    public Date getGbdatum() {
+    public Date getGbdatum(Date datum) {
         return gbdatum;
     }
 
