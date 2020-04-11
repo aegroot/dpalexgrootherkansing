@@ -1,8 +1,10 @@
-package reizen;
+package p2;
 
+import java.util.ArrayList;
 import java.util.Date;
 
 public class Reiziger {
+    private ArrayList<Ovchipkaart> ovs;
     String naam;
     Date gbdatum;
 

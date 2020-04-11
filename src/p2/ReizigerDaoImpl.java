@@ -1,11 +1,11 @@
-package reizen;
+package p2;
 
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.Date;
 
-public class ReizigerDaoImpl  extends OracleBaseDao implements ReizigerDao{
-    private ArrayList<Reiziger> reizig=new ArrayList<Reiziger>();
+public class ReizigerDaoImpl  extends OracleBaseDao implements ReizigerDao {
+    private static ArrayList<Reiziger> reizig=new ArrayList<Reiziger>();
 
 
     public ArrayList<Reiziger> findall() throws SQLException {
@@ -46,7 +46,7 @@ public class ReizigerDaoImpl  extends OracleBaseDao implements ReizigerDao{
             Date datum=set.getDate("GEBORTEDATUM");
             Reiziger reiziger=new Reiziger();
             reiziger.setNaam(naam);
-            reiziger.getGbdatum(datum);
+            reiziger.setGbdatum(datum);
             reizigers.add(reiziger);
 
         }
@@ -56,17 +56,27 @@ public class ReizigerDaoImpl  extends OracleBaseDao implements ReizigerDao{
     }
 
     @Override
-    public Reiziger save(Reiziger reiziger) {
+    public Reiziger save(Reiziger reiziger) throws SQLException {
+        Connection conn=getConnection();
+        String string="commit";
+        PreparedStatement stmt=conn.prepareStatement(string);
+        stmt.executeQuery();
+
         return null;
     }
 
+
+
     @Override
-    public Reiziger update(Reiziger reiziger) {
+    public Reiziger update(Reiziger reiziger) throws SQLException {
+
+
         return null;
     }
 
     @Override
     public boolean delete(Reiziger reiziger) throws SQLException {
+        if (reiziger==null){return false;}
         Connection conn=getConnection();
         String string="delete from reiziger where " +
                 "voorletters = ? and achternaam =?";
@@ -78,7 +88,7 @@ public class ReizigerDaoImpl  extends OracleBaseDao implements ReizigerDao{
         stmt.executeQuery();
         closeConnection();
 
-        return false;
+        return true;
     }
 
     @Override

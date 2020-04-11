@@ -1,6 +1,6 @@
-package reizen;
+package p2;
 
-public class Main {
+public class ReizigerMain {
     public static void main(String[] args) {
 
     }
