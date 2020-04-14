@@ -4,7 +4,7 @@ import java.sql.*;
 import java.util.ArrayList;
 
 public class OvchipkaartDaoImpl extends OracleBaseDao implements OvchipkaartDao{
-    private ArrayList<Ovchipkaart> ovchipkaarts=new ArrayList<Ovchipkaart>();
+    private static ArrayList<Ovchipkaart> ovchipkaarten=new ArrayList<Ovchipkaart>();
 
     @Override
     public ArrayList<Ovchipkaart> findall() throws SQLException {
@@ -19,14 +19,36 @@ public class OvchipkaartDaoImpl extends OracleBaseDao implements OvchipkaartDao{
             int klasse=resultSet.getInt("klasse");
             double saldo=resultSet.getDouble("saldo");
             int rid=resultSet.getInt("reizigerid");
-            ovchipkaarts.add(new Ovchipkaart(knum,geldigtot,klasse,saldo,rid));
+            Ovchipkaart ovchipkaart=new Ovchipkaart(knum,geldigtot,klasse,saldo,rid);
+
+
+
+            String string1="select * from reiziger where reizigerid = ?";
+            PreparedStatement statement1=conn.prepareStatement(string1);
+            statement1.setString(1, String.valueOf(knum));
+            ResultSet resultSet1=statement1.executeQuery();
+            while (resultSet1.next()){
+                String naam=(resultSet1.getString("VOORLETTERS")+" "+
+                        resultSet1.getString("TUSSENVOEGSEL")+" "+
+                        resultSet1.getString("ACHTERNAAM"));
+                java.util.Date datum=resultSet1.getDate("GEBORTEDATUM");
+                Reiziger reiziger=new Reiziger();
+                reiziger.setNaam(naam);
+                reiziger.setGbdatum(datum);
+                reiziger.addToOvs(ovchipkaart);
+                ovchipkaart.setReiziger(reiziger);
+                ovchipkaarts.add(ovchipkaart);
+            }
+
+
 
 
 
         }
-
-
+        ovchipkaarten.addAll(ovchipkaarts);
+        closeConnection();
         return ovchipkaarts;
+
     }
 
     @Override

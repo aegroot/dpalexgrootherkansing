@@ -8,8 +8,15 @@ public class Reiziger {
     String naam;
     Date gbdatum;
 
+    public void addToOvs(Ovchipkaart ov) {
+        ovs.add(ov);
+    }
 
     public Reiziger() {
+    }
+
+    public ArrayList<Ovchipkaart> getOvs() {
+        return ovs;
     }
 
     public void setNaam(String naam) {

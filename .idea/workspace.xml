@@ -2,25 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="adding db">
-      <change afterPath="$PROJECT_DIR$/src/p2/OracleBaseDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/p2/Ovchipkaart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/p2/OvchipkaartDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/p2/OvchipkaartDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/p2/OvchipkaartMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/p2/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/p2/Reiziger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/p2/ReizigerDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/p2/ReizigerDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/p2/ReizigerMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dpalexgrootherkansing.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dpalexgrootherkansing.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dpalexgrootherkansing/reizen/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reizen/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reizen/OracleBaseDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p1/OracleBaseDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reizen/Reiziger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p1/Reiziger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reizen/ReizigerDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p1/ReizigerDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reizen/ReizigerDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p1/ReizigerDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2/Ovchipkaart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2/Ovchipkaart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2/OvchipkaartDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2/OvchipkaartDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2/OvchipkaartMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2/OvchipkaartMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2/Reiziger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2/Reiziger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2/ReizigerDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2/ReizigerDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2/ReizigerMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2/ReizigerMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,6 +108,7 @@
     <property name="project.structure.proportion" value="0.15234375" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
@@ -129,7 +119,7 @@
       <recent name="C:\Users\alex-\IdeaProjects\dpalexgrootherkansing\src\p2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.OvchipkaartMain">
+  <component name="RunManager" selected="Application.ReizigerMain">
     <configuration default="true" type="Applet" factoryName="Applet">
       <module name="" />
       <option name="MAIN_CLASS_NAME" />
@@ -199,6 +189,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ReizigerMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="p2.ReizigerMain" />
+      <module name="dpalexgrootherkansing" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="p2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -238,13 +242,13 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.OvchipkaartMain" />
+      <item itemvalue="Application.ReizigerMain" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReizigerMain" />
         <item itemvalue="Application.OvchipkaartMain" />
-        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -270,7 +274,11 @@
       <workItem from="1586510123495" duration="1529000" />
       <workItem from="1586511883773" duration="1947000" />
       <workItem from="1586515470108" duration="3042000" />
-      <workItem from="1586615882863" duration="6182000" />
+      <workItem from="1586615882863" duration="6905000" />
+      <workItem from="1586695040485" duration="4094000" />
+      <workItem from="1586803939078" duration="39000" />
+      <workItem from="1586803998138" duration="56000" />
+      <workItem from="1586805014452" duration="5065000" />
     </task>
     <task id="LOCAL-00001" summary="adding db">
       <created>1586105272631</created>
@@ -363,7 +371,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586616733937</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="adding db">
+      <created>1586623642046</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1586623642046</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -380,22 +395,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="471" y="83" key="#Deployment/0.0.1920.1040@0.0.1920.1040" timestamp="1586105504983" />
-    <state x="349" y="361" key="#SQL_Dialects" timestamp="1586621393173">
+    <state x="349" y="361" key="#SQL_Dialects" timestamp="1586806840998">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="349" y="361" key="#SQL_Dialects/0.0.1920.1040@0.0.1920.1040" timestamp="1586621393173" />
+    <state x="349" y="361" key="#SQL_Dialects/0.0.1920.1040@0.0.1920.1040" timestamp="1586806840998" />
     <state x="93" y="91" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586103290614">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="93" y="91" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586103290614" />
-    <state x="686" y="139" key="#com.intellij.ide.util.MemberChooser" timestamp="1586623195026">
+    <state x="686" y="139" key="#com.intellij.ide.util.MemberChooser" timestamp="1586808633759">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="686" y="139" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1586623195026" />
-    <state x="517" y="24" key="CommitChangelistDialog2" timestamp="1586616732498">
+    <state x="686" y="139" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1586808633759" />
+    <state x="607" y="365" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1586807736797">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="517" y="24" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1586616732498" />
+    <state x="607" y="365" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1586807736797" />
+    <state x="517" y="24" key="CommitChangelistDialog2" timestamp="1586623639895">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="517" y="24" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1586623639895" />
     <state x="131" y="100" width="1569" height="634" key="DiffContextDialog" timestamp="1586107305161">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -404,22 +423,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="681" y="166" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1586618455945" />
-    <state width="1293" height="212" key="GridCell.Tab.0.bottom" timestamp="1586622273832">
+    <state width="1738" height="268" key="GridCell.Tab.0.bottom" timestamp="1586810082988">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="212" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586622273832" />
-    <state width="1293" height="212" key="GridCell.Tab.0.center" timestamp="1586622273832">
+    <state width="1738" height="268" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586810082988" />
+    <state width="1738" height="268" key="GridCell.Tab.0.center" timestamp="1586810082988">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="212" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586622273832" />
-    <state width="1293" height="212" key="GridCell.Tab.0.left" timestamp="1586622273832">
+    <state width="1738" height="268" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586810082988" />
+    <state width="1738" height="268" key="GridCell.Tab.0.left" timestamp="1586810082988">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="212" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586622273832" />
-    <state width="1293" height="212" key="GridCell.Tab.0.right" timestamp="1586622273832">
+    <state width="1738" height="268" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586810082988" />
+    <state width="1738" height="268" key="GridCell.Tab.0.right" timestamp="1586810082988">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="212" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586622273832" />
+    <state width="1738" height="268" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586810082988" />
     <state x="77" y="118" key="SettingsEditor" timestamp="1586618461148">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -428,10 +447,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="344" key="VCS.ChangelistChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1586106449515" />
-    <state x="476" y="146" key="Vcs.Push.Dialog.v2" timestamp="1586616735325">
+    <state x="476" y="146" key="Vcs.Push.Dialog.v2" timestamp="1586623643564">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="476" y="146" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586616735325" />
+    <state x="476" y="146" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586623643564" />
     <state x="750" y="263" key="com.intellij.ide.util.TipDialog" timestamp="1586172886488">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -444,6 +463,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="609" y="323" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586106495420" />
+    <state x="229" y="214" key="new project wizard" timestamp="1586804052488">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="229" y="214" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1586804052488" />
     <state x="575" y="252" key="run.anything.popup" timestamp="1586617887974">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

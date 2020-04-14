@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.Date;
 
 public class ReizigerDaoImpl  extends OracleBaseDao implements ReizigerDao {
-    private static ArrayList<Reiziger> reizig=new ArrayList<Reiziger>();
+    public static ArrayList<Reiziger> reizig=new ArrayList<Reiziger>();
 
 
     public ArrayList<Reiziger> findall() throws SQLException {
@@ -15,6 +15,7 @@ public class ReizigerDaoImpl  extends OracleBaseDao implements ReizigerDao {
          ResultSet resultSet =statement.executeQuery(string);
         ArrayList<Reiziger> reizigers=new ArrayList<Reiziger>();
         while (resultSet.next()){
+            int id=resultSet.getInt("reizigerid");
             String naam=(resultSet.getString("VOORLETTERS")+" "+
                     resultSet.getString("TUSSENVOEGSEL")+" "+
                     resultSet.getString("ACHTERNAAM"));
@@ -23,10 +24,40 @@ public class ReizigerDaoImpl  extends OracleBaseDao implements ReizigerDao {
             reiziger.setNaam(naam);
             reiziger.getGbdatum(datum);
             reizigers.add(reiziger);
-            reizig.add(reiziger);
+            String string1="select * from ov_chipkaart where reizigerid = ?";
+            PreparedStatement statement1=conn.prepareStatement(string1);
+            statement1.setInt(1,id);
+            ResultSet resultSet1=statement1.executeQuery();
+            /*
+            if (!resultSet1.next()){
+                System.out.println("testing");
+                //break;
+            }
+            else {
+                while (resultSet1.next()){
+                    System.out.println("test");
+                    //Ovchipkaart kaart;
+                    Ovchipkaart kaart=new Ovchipkaart(
+                            resultSet1.getInt(1),
+                            resultSet1.getDate(2)
+                            ,resultSet1.getInt(3),
+                            resultSet1.getDouble(4),
+                            resultSet1.getInt(5));
+                    System.out.println(kaart.getKaartid());
+                    System.out.println(kaart.getGeldigtot());
+                    System.out.println(kaart.getKlasse());
+                    System.out.println(kaart.getSaldo());
+                    System.out.println(kaart.getReizigerid());
+                    reiziger.addToOvs(kaart);
+
+                }}
+
+             */
+
+
 
         }
-
+        reizig.addAll(reizigers);
         closeconnection();
         return reizigers;
     }
