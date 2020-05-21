@@ -35,8 +35,8 @@ public class ReizigerDaoImpl  extends OracleBaseDao implements ReizigerDao {
                         resultSet1.getInt(1),
                         resultSet1.getDate(2)
                         ,resultSet1.getInt(3),
-                        resultSet1.getDouble(4),
-                        resultSet1.getInt(5));
+                        resultSet1.getDouble(4));
+
                         reiziger.addToOvs(kaart);
             }
         }
