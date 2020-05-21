@@ -28,34 +28,17 @@ public class ReizigerDaoImpl  extends OracleBaseDao implements ReizigerDao {
             PreparedStatement statement1=conn.prepareStatement(string1);
             statement1.setInt(1,id);
             ResultSet resultSet1=statement1.executeQuery();
-            /*
-            if (!resultSet1.next()){
-                System.out.println("testing");
-                //break;
+            while (resultSet1.next()){
+                System.out.println("test");
+                //Ovchipkaart kaart;
+                Ovchipkaart kaart=new Ovchipkaart(
+                        resultSet1.getInt(1),
+                        resultSet1.getDate(2)
+                        ,resultSet1.getInt(3),
+                        resultSet1.getDouble(4),
+                        resultSet1.getInt(5));
+                        reiziger.addToOvs(kaart);
             }
-            else {
-                while (resultSet1.next()){
-                    System.out.println("test");
-                    //Ovchipkaart kaart;
-                    Ovchipkaart kaart=new Ovchipkaart(
-                            resultSet1.getInt(1),
-                            resultSet1.getDate(2)
-                            ,resultSet1.getInt(3),
-                            resultSet1.getDouble(4),
-                            resultSet1.getInt(5));
-                    System.out.println(kaart.getKaartid());
-                    System.out.println(kaart.getGeldigtot());
-                    System.out.println(kaart.getKlasse());
-                    System.out.println(kaart.getSaldo());
-                    System.out.println(kaart.getReizigerid());
-                    reiziger.addToOvs(kaart);
-
-                }}
-
-             */
-
-
-
         }
         reizig.addAll(reizigers);
         closeconnection();
@@ -88,7 +71,9 @@ public class ReizigerDaoImpl  extends OracleBaseDao implements ReizigerDao {
 
     @Override
     public Reiziger save(Reiziger reiziger) throws SQLException {
+
         Connection conn=getConnection();
+        String s2="insert into ";
         String string="commit";
         PreparedStatement stmt=conn.prepareStatement(string);
         stmt.executeQuery();

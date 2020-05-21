@@ -2,20 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="p2">
-      <change afterPath="$PROJECT_DIR$/src/p3/OracleBaseDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/p3/Ovchipkaart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/p3/OvchipkaartDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/p3/OvchipkaartDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/p3/OvchipkaartMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/p3/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/p3/ProductDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/p3/ProductDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/p3/Reiziger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/p3/ReizigerDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/p3/ReizigerDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/p3/ReizigerMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/p2/OvchipkaartDaoImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dpalexgrootherkansing.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dpalexgrootherkansing.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p1/OracleBaseDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p1/OracleBaseDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2/Ovchipkaart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2/Ovchipkaart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2/OvchipkaartDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2/OvchipkaartDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2/OvchipkaartDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2/OvchipkaartDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2/Reiziger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2/Reiziger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2/ReizigerDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2/ReizigerDaoImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +64,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -92,6 +89,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="oracle" />
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="GoToFile.includeJavaFiles" value="false" />
@@ -99,9 +97,15 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="OverrideImplement.combined" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
     <property name="dynamic.classpath" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/p3" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -118,6 +122,12 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="p2" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="p2" />
     </key>
@@ -290,7 +300,19 @@
       <workItem from="1586874592089" duration="9000" />
       <workItem from="1587382793501" duration="1807000" />
       <workItem from="1587455804761" duration="56000" />
-      <workItem from="1589539280143" duration="2831000" />
+      <workItem from="1589539280143" duration="3711000" />
+      <workItem from="1589547740277" duration="23000" />
+      <workItem from="1589787748780" duration="1054000" />
+      <workItem from="1589813855009" duration="108000" />
+      <workItem from="1589830392077" duration="14000" />
+      <workItem from="1589874611464" duration="13000" />
+      <workItem from="1589885000567" duration="616000" />
+      <workItem from="1589906300251" duration="58000" />
+      <workItem from="1589968175139" duration="439000" />
+      <workItem from="1589979601320" duration="3066000" />
+      <workItem from="1589986956586" duration="1944000" />
+      <workItem from="1589996761793" duration="199000" />
+      <workItem from="1590050217890" duration="5300000" />
     </task>
     <task id="LOCAL-00001" summary="adding db">
       <created>1586105272631</created>
@@ -397,7 +419,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586860115337</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="p2">
+      <created>1589546824807</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1589546824807</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -419,22 +448,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="349" y="361" key="#SQL_Dialects/0.0.1920.1040@0.0.1920.1040" timestamp="1587383504372" />
-    <state x="93" y="91" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586103290614">
+    <state x="194" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589547761695">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="93" y="91" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586103290614" />
-    <state x="686" y="139" key="#com.intellij.ide.util.MemberChooser" timestamp="1589542539058">
+    <state x="194" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589547761695" />
+    <state x="686" y="139" key="#com.intellij.ide.util.MemberChooser" timestamp="1590052245616">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="686" y="139" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1589542539058" />
+    <state x="686" y="139" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1590052245616" />
     <state x="607" y="365" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1586807736797">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="607" y="365" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1586807736797" />
-    <state x="517" y="24" key="CommitChangelistDialog2" timestamp="1586860112946">
+    <state x="517" y="24" key="CommitChangelistDialog2" timestamp="1589546821018">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="517" y="24" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1586860112946" />
+    <state x="517" y="24" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1589546821018" />
     <state x="131" y="100" width="1569" height="634" key="DiffContextDialog" timestamp="1586107305161">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -467,26 +496,34 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="344" key="VCS.ChangelistChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1586106449515" />
-    <state x="476" y="146" key="Vcs.Push.Dialog.v2" timestamp="1586860118636">
+    <state x="476" y="146" key="Vcs.Push.Dialog.v2" timestamp="1589546852429">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="476" y="146" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586860118636" />
+    <state x="476" y="146" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1589546852429" />
     <state x="750" y="263" key="com.intellij.ide.util.TipDialog" timestamp="1586172886488">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="750" y="263" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586172886488" />
+    <state x="626" y="386" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1590052613440">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="626" y="386" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1040@0.0.1920.1040" timestamp="1590052613440" />
     <state x="695" y="341" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586616723477">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="695" y="341" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586616723477" />
+    <state x="692" y="229" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1590052597563">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="692" y="229" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590052597563" />
     <state x="609" y="323" key="git4idea.merge.GitPullDialog" timestamp="1586106495420">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="609" y="323" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586106495420" />
-    <state x="229" y="214" key="new project wizard" timestamp="1586804052488">
+    <state x="229" y="214" key="new project wizard" timestamp="1589547483445">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="229" y="214" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1586804052488" />
+    <state x="229" y="214" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1589547483445" />
     <state x="575" y="252" key="run.anything.popup" timestamp="1586617887974">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

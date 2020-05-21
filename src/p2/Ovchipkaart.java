@@ -1,6 +1,7 @@
 package p2;
 
 import java.sql.Date;
+import java.util.ArrayList;
 
 public class Ovchipkaart {
     private int kaartid;
@@ -10,13 +11,17 @@ public class Ovchipkaart {
     private int reizigerid;
     private Reiziger reiziger;
 
-    public Ovchipkaart(int kaartid, Date geldigtot, int klasse, double saldo, int reizigerid) {
+    public Ovchipkaart(int kaartid, Date geldigtot, int klasse, double saldo) {
         this.kaartid = kaartid;
         this.geldigtot=geldigtot;
         this.klasse=klasse;
         this.saldo=saldo;
-        this.reizigerid=reizigerid;
 
+
+    }
+
+    public Reiziger getReiziger() {
+        return reiziger;
     }
 
     public int getKlasse() {

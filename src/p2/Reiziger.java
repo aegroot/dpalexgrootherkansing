@@ -5,8 +5,8 @@ import java.util.Date;
 
 public class Reiziger {
     private ArrayList<Ovchipkaart> ovs;
-    String naam;
-    Date gbdatum;
+    private String naam;
+    private Date gbdatum;
 
     public void addToOvs(Ovchipkaart ov) {
         ovs.add(ov);
@@ -34,5 +34,6 @@ public class Reiziger {
     public String getNaam() {
         return naam;
     }
+
 
 }
